@@ -1,0 +1,18 @@
+//Rakshita Basnale
+//ENTC B1
+//23070123104
+
+
+#include <iostream>
+using namespace std;
+class Car{
+    public:
+    string make = "Renault";
+    string model = "Duster";
+    int year = 2024;
+};
+int main(){
+    Car myCar;
+    cout<<"Car details: "<<myCar.make<<" "<<myCar.model<<"("<<myCar.year<<")"<<endl;
+    return 0;
+}
