@@ -1,0 +1,22 @@
+//Rakshita Basnale
+//ENTC B1
+//23070123104
+
+
+#include <iostream>
+using namespace std;
+class Student {
+public:
+    string name = "Rakshita";   
+    string batch = "ENTC-B1";  
+    int prn = 104;
+ void displayInfo(){
+cout << "STUDENT DETAILS: " <<endl<< "Name: "<< name <<endl<<"Class: " << batch <<endl<<"PRN: " << prn <<endl;
+    }
+};
+
+int main(){
+    Student myself;
+    myself.displayInfo();
+    return 0;
+}
